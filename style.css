@@ -1,0 +1,144 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background:url(white);
+    background-size: cover;
+    font-family: Arial;
+    color: #333;
+    font-size: 13px;
+    margin:0;
+}
+input,section,button{
+    font-family: arial;
+    color:#333;
+    font-size: 14px;
+}
+h3,h4{
+    margin:0;
+}
+img{
+    max-width: 100%;
+}
+:focus{
+    outline:none ;
+}
+.wrapper{
+    min-height: 100vh;
+    background-size: cover;
+    background-color: rgb(241, 231, 231);
+    background-repeat: no-repeat;
+    
+        padding-top: 36px;
+        padding-left: 45px;
+        padding-right: 45px;
+        margin: 0 auto;
+  }
+  .inner{
+    position: absolute;
+    width:60%;
+    left:20%;
+    top:10%;
+    background-color:white;
+  }
+
+  .image\.holder {
+    display: inline list-item;
+  }
+  .image\.holder {
+    width: 50%;
+    display: inline-block;
+  }
+  .inner form {
+    width: 48%;
+    padding-top: 36px;
+    padding-left: 45px;
+    padding-right: 45px;
+    display: inline-block;
+  }
+.inner h3{
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align:center ;
+    margin-bottom: 28px;
+}
+.form-group{
+  position:relative;
+  display:-webkit-box;
+  width:93%;
+}
+.form-group input{
+    width:50%;
+}
+.form-group input:first-child{
+    margin-right: 25px;
+}
+i{
+    position: absolute;
+    color: #333;
+    top:13px;
+    right:0;
+}
+.form-wrapper{
+    position: relative;
+    
+}
+.form-control{
+    border: 1px solid #333;
+    border: none;
+    border-bottom: 1px solid #333;
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding-right: 0;
+    margin-bottom: 25px;
+}
+select{
+    cursor: pointer;
+    color:#333;
+}
+select option[value=""][disabled]{
+    display:none;
+}
+button{
+    border: none;
+    width: 164px;
+    height: 51px;
+    margin:auto;
+    margin-top: 40px;
+    cursor: pointer;
+     display: block;
+    align-items:center;
+    justify-content:center;
+    padding-left: 0;
+    background:#333;
+    font-size:15px;
+    color: #fff;
+}
+button:hover{
+    background:gray;
+}
+@media(max-width:555px){
+    .inner{
+        display: block;
+    }
+    .inner.image.holder{
+        width: 100%;
+
+    }
+    .inner form{
+        width:100%;
+        padding: 40px 0 30px;
+    }
+    button{
+        margin-top: 60px;
+
+    }
+}
+.login-link{
+    text-align: center;
+    color: black;
+    margin: 20px 0 15px;
+    display: block;
+}
